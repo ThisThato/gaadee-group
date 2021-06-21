@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;700&display=swap"); /* family=Roboto+Mono:wght@100&display=swa */
+
+/* #98ded9 */
+
+body {
+  align-items: center;
+  text-align: center;
+  overflow-x: hidden;
+  background-color: #f6f6f6;
+}
+
+a,
+a:hover {
+  color: #777;
+}
+
+.navbar-brand {
+  width: 58vw;
+  position: absolute;
+  margin-top: 1rem;
+  top: 0;
+}
+
+.navbar-brand .fab {
+  color: #777;
+  margin-right: 0.8em;
+}
+
+.navbar-brand .text,
+.footer-logo .text {
+  background-color: rgba(204, 120, 10, 0.685);
+  margin: 0 0.3em;
+  border-radius: 50%;
+  padding-left: 0.3em;
+}
+
+.navbar-brand h4 {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.navbar-brand h5 {
+  margin-bottom: 2rem;
+}
+
+.footer-logo .text {
+  background-color: #98ded9;
+  margin: 0 0.3em;
+  border-radius: 50%;
+  padding-left: 0.3em;
+}
+
+.navbar-brand img {
+  display: block;
+  margin: auto;
+}
+
+.navbar-nav {
+  padding-top: 80px;
+}
+.navbar {
+  min-height: 160px;
+}
+.txt {
+  margin-top: 120px;
+}
+.navbar-toggler {
+  margin-top: 65px;
+}
+
+.nav-link {
+  margin: 3.5rem 5rem -0.2rem 5rem;
+  font-size: 1rem;
+}
+
+.navbar-links {
+  width: 100vw;
+}
+
+.nav-info {
+  margin-top: 1rem;
+}
+
+.nav-info i {
+  background-color: #d7be69;
+  border-radius: 50%;
+  padding: 6px;
+  width: 30px;
+  height: 30px;
+  color: #f6f6f6;
+}
+
+.nav-info h4 {
+  float: right;
+  margin-top: -0.1rem;
+  margin-right: 6rem;
+  text-align: left;
+}
+
+.carousel-inner > .item > img {
+  justify-content: center !important;
+  margin-top: 10rem;
+}
